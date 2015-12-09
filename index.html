@@ -7,9 +7,11 @@
 	<meta name="owner" content="Grupo Ovnyline Comunicación">
 	<meta name="rating" content="General">
 	<meta name="robot" content="index, follow">	
+	<script type="text/javascript src="js/general.js"></script>
 	
 	<script type="text/javascript">
 	document.addEventListener("deviceready", function(){ //$(document).ready(function(){ Aqui iría el codigo de debajo });
+		alert("antes");
 		var recognition = new SpeechRecognition();
 		alert("primero");
 		recognition.onresult = function(event) {
